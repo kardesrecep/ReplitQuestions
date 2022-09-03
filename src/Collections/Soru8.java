@@ -15,7 +15,7 @@ public class Soru8 {
         LinkedList <String> ll=new LinkedList<>(Arrays.asList("sari","mavi","turuncu","siyah","yesil","beyaz"));
         Iterator<String> it= ll.listIterator();
         String str="";
-        System.out.println(ll);
+        System.out.println("Orjinal list elemanlari:"+ll);
         System.out.println(" Listenin ilk elemani:"+it.next());
 
         while (it.hasNext()){

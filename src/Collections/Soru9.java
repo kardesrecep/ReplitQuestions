@@ -15,9 +15,12 @@ public class Soru9 {
         mor beyaz
         kirmizi yesil
         mavi sari   */
+
         //1.yol
         LinkedList<String> ll = new LinkedList<>(Arrays.asList("sari", "mavi", "yesil", "kirmizi", "beyaz", "mor"));
         ListIterator<String> it = ll.listIterator();
+        System.out.println("Orijinal linked list:"+ll);
+        System.out.println("LinkedList Tersi:");
         while (it.hasNext()) {
             it.next();
         }
@@ -26,7 +29,7 @@ public class Soru9 {
 
         }
         System.out.println("=================================================================");
-                //2.yol
+        //2.yol
         LinkedList<String> ll2 = new LinkedList<>(Arrays.asList("sari", "mavi", "yesil", "kirmizi", "beyaz", "mor"));
         Iterator<String> it2 = ll2.descendingIterator();
         while (it2.hasNext()) {

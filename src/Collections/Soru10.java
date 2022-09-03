@@ -12,8 +12,8 @@ public class Soru10 {
         Swap sonrası durum: [**siyah**,kirmizi,beyaz,**mavi**,yesil,turuncu]
           */
         LinkedList<String> ll=new LinkedList<>(Arrays.asList("mavi","kirmizi","beyaz","siyah","yesil","turuncu"));
-        System.out.println(ll);
+        System.out.println("Orjinal LinkedList:"+ll);
         Collections.swap(ll,0,3);
-        System.out.println(ll);
+        System.out.println("Swap sonrasi durum: "+ll);
     }
 }

@@ -19,7 +19,7 @@ public class Soru5 {
         list.add("yesil");
         list.add("mor");
         list.add("turuncu");
-        System.out.println(list);
+        System.out.println("Orjinal array list:"+list);
         for (int i = 0; i <list.size() ; i++) {
             System.out.println(list.get(i));
 
